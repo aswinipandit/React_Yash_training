@@ -1,0 +1,21 @@
+<HTML>
+
+    <Head>
+        <Script>
+            function reverseString(str) {
+            let output = "";
+            for (let i = str.length - 1; i >= 0; i--) {
+            output = output+ str[i];
+            }
+            return output;
+            }
+
+            const string1 = prompt(' Enter a string to reverse it ');
+            const result1 = reverseString(string1);
+            console.log("Reversed String is : "  +result1);
+        </Script>
+    </Head>
+    
+    <body>
+        Write a Javascript program to reverse a String
+    </body>    

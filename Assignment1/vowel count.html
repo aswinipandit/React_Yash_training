@@ -1,0 +1,26 @@
+<HTML>
+
+    <Head>
+        <Script>
+            function vowel_count(str1)
+            {
+                var vowel_list = 'aeiouAEIOU';
+                var vcount = 0;
+                for(var x = 0; x < str1.length ; x++)
+                {
+                    if (vowel_list.indexOf(str1[x]) !== -1)
+                        {
+                             vcount += 1;
+                        }
+  
+                }
+                return vcount;
+            }
+            console.log(vowel_count("aSWINI"));
+        </Script>
+    </Head>
+    
+    <body>
+        Write a Javascript program to count the number of each vowel in a String entered by the 
+        user.(Hint:use maps)
+    </body>    

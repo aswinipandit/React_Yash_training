@@ -1,0 +1,31 @@
+<HTML>
+
+    <Head>
+        <Script>
+            
+            function ValidateEmail(email)
+            {
+                let mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                if(email.value==mailformat.value)
+                    {
+                    alert("Valid email address!")
+                    }
+                else
+                    {
+                        alert("You have entered an invalid email address!")
+
+                    }
+            }
+            const email = prompt("Enter E-Mail ID to validate.")
+            const result2= ValidateEmail(email)
+        </Script>
+    </Head>
+    
+    <body>
+        Write a Javascript program to test if the email entered by the user is valid.
+    </body>    
+
+
+
+
+
