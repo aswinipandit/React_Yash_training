@@ -1,1 +1,2 @@
-# React_Yash_training
+# React Yash Training
+1. Structure of the project
